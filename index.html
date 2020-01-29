@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<!-- C Home(Triple) - W About - C Team - App - C Sponsorship - W The Car - C Gallery(Video) - W Contact -->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Nine</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/typed.js"></script>
+        <script type="text/javascript" src = "js/flickity.js"></script>
+        <link rel="stylesheet" href="css/flickity.css" >
+        <link rel="stylesheet" href="css/cocoen.min.css">
+        <link rel="stylesheet" href = "css/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+        <script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
+    </head>
+    <body id = "body">
+        <header>
+            <ul class = "navItemsLeft " style = "transition-delay: all 1.5s;">
+                <li><a href = "#home" class = "navItem homeNavItem fadeUp" id = "homeNavItem" >Home</a></li>
+                <li><a href = "#about" class = "navItem fadeUp" id = "aboutNavItem">About</a></li>
+                <li><a href = "#info" class = "navItem fadeUp" id = "infoNavItem">Info</a></li>
+                <li><a href = "#team" class = "navItem fadeUp" id = "teamNavItem">Team</a></li>
+                <li><a href = "#app" class = "navItem fadeUp" id = "appNavItem">App</a></li>
+            </ul>
+            <ul class = "navIconsLeft">
+                <li><a href = "#home"><img src = "images/Icons/homeIcon.webp" class = "navIcon navItem homeNavItem"></a></li>
+                <li><a href = "#app"><img src = "images/Icons/appIcon.webp" class = "navIcon navItem"></a></li>
+            </ul>
+            
+            <a href = "#home"><img src = "images/whiteLogo.png" class = "headerLogo fadeUp" style = "transition-delay: 3s;"></a>
+            
+            <ul class = "navItemsRight fadeLeft">
+                <li><a href = "#car" class = "navItem fadeUp" id = "carNavItem">Car</a></li>
+                <li><a href = "#sponsorship" class = "navItem fadeUp" id = "sponsorshipNavItem">Sponsorship</a></li>
+                <li><a href = "#gallery" class = "navItem fadeUp" id = "galleryNavItem">Gallery</a></li>
+                <li><a href = "#contact" class = "navItem fadeUp" id = "contactNavItem">Contact</a></li>
+            </ul>
+            <ul class = "navIconsRight">
+                <li><a href = "#tripleSection"><img src = "images/Icons/galleryIcon.webp" class = "navIcon navItem"></a></li>
+                <li><a href = "#info"><img src = "images/Icons/aboutIcon.webp" class = "navIcon navItem"></a></li>
+            </ul>
+        </header>
+
+        <!-- Preloader -->
+        <div id = "overlay">
+            <div id = "spinner" class = "loader">
+                <div class="sk-folding-cube">
+                    <div class="sk-cube1 sk-cube"></div>
+                    <div class="sk-cube2 sk-cube"></div>
+                    <div class="sk-cube4 sk-cube"></div>
+                    <div class="sk-cube3 sk-cube"></div>
+                </div>
+            </div>
+        </div>
+        
+        <section id = "home" class="landerContainer">
+            <div class = "landerVideoFill">
+                <video class="landerVideo" autoplay="autoplay" loop="loop" muted="">
+                    <source src="videos/SingleCar.webm" type="video/webm" />
+                </video>
+            </div>
+            <div class = "darkOverlay" id = "landerVideoDarkOverlay" style = "transition: all 1s;"><h2></h2></div>
+
+            <div class = "landerContent fadeUp">
+                <div class = "textContent fadeUp">
+                    <div class = "title" style = "transition-delay:0.3s">
+                        <h1>NI</h1>
+                        <h1 class = middleX>X</h1>
+                        <h1>NE</h1>
+                        <p>.co.uk</p>
+                    </div>
+                    <h2 class = "fadeUp" style = "transition-delay:0.5s">Northern Ireland <span class = "pinkText">x</span> Northern England</h2>
+                    <h3 class = "fadeUp" style = "transition-delay:0.7s"><span class = "pinkText">#</span>roadtomalaysia</h3>
+                </div>
+
+                <div class = "socialIcons fadeUp" style = "transition-delay:1s">
+                    <div class = "dauntless">
+                        <ul>
+                            <a href = "https://twitter.com/RacingDauntless" class = "twitterIcon"><li class = "fa fa-twitter animated fadeIn"></li></a>
+                            <a href = "https://www.facebook.com/dauntlessCGS/" class = "facebookIcon"><li class = "fa fa-facebook animated fadeIn"></li></a>
+                            <!--<a href = "https://www.instagram.com/"><li class = "fa fa-instagram animated fadeIn"></li></a>-->
+                        </ul>
+                    </div>
+
+                    <div class = "unity">
+                        <ul>
+                            <a href = "https://twitter.com/unityf1?lang=en" class = "twitterIcon"><li class = "fa fa-twitter animated fadeIn"></li></a>
+                            <a href = "https://www.facebook.com/unityf1/" class = "facebookIcon"><li class = "fa fa-facebook animated fadeIn"></li></a>
+                            <a href = "https://www.instagram.com/unityf1/" class = "instagramIcon"><li class = "fa fa-instagram animated fadeIn"></li></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id = "tripleSection">
+            <div class = "oneThird">
+                <video class="oneThirdVideo" preload="auto" loop="loop" muted="" preload="none">
+                    <source src="videos/HardWork.webm" type="video/webm" />
+                    <source src="media/demo.ogv" type="video/ogg" />
+                </video>
+                <div class = "darkOverlay"><h2 class = "fadeUp">Hard Work</h2></div>
+            </div>
+            <div class = "oneThird">
+                <video class="oneThirdVideo" preload="auto" loop="loop" muted="" preload="none">
+                    <source src="videos/Learning.webm" type="video/webm" />
+                    <source src="media/demo.ogv" type="video/ogg" />
+                </video>
+                <div class = "darkOverlay"><h2 class = "fadeUp">Learning</h2></div>
+            </div>
+            <div class = "oneThird">
+                <video class="oneThirdVideo" preload="auto" loop="loop" muted="" preload="none">
+                    <source src="videos/Fun.webm" type="video/webm" />
+                    <source src="media/demo.ogv" type="video/ogg" />
+                </video>
+                <div class = "darkOverlay"><h2 class = "fadeUp">Fun</h2></div>
+            </div>
+
+
+            <script> //Video Play/Pause on Hover Script
+                var figure = $(".oneThird").hover( hoverVideo, hideVideo );
+                function hoverVideo(e) {  
+                    $('video', this).get(0).play(); 
+                }
+                function hideVideo(e) {
+                    $('video', this).get(0).pause(); 
+                }
+            </script>
+        </section>
+        
+        <section id = "about">
+            <div class = "aboutWrapper">
+                <div class = "mainText">
+                    <h2 id = "aboutPrompt" class = "fadeUp" style = "transition: all 1s;">*Click for info</h2>
+                    <h1 id = "typed-text1" style = "z-index: 2;" class = "fadeUp">Hello.*</h1>
+                    <h1 id = "typed-text2" style = "z-index: 0;"></h1>
+                    <h1 id = "typed-text3" style = "z-index: 0;"></h1>
+                    <div id="typed-strings1">
+                        <p>Hello.*</p>
+                        <p>I'm Aaron.</p>
+                        <p>I'm team <span style = "color: #DB0A5B">Nixne's</span> Crea</p>
+                        <p>I'm team <span style = "color: #DB0A5B">Nine's</span> Creative Designer.</p>
+                        <p>I coded <span style = "font-weight: 600; font-style: italics;">this</span> website from scratch in <span style = "color: red">HTML5</span>, <span style = "color: blue">CSS3</span> and <span style = "color: orange">Javascript</span>.</p>
+                        <p> </p>
+                    </div>
+                    <div id="typed-strings2">
+                        <p>Here you can find out about <span style = "font-weight: 700">F1 in Schools</span></p>
+                        <p>Here you can find out about <span style = "font-weight: 700">My Team</span></p>
+                        <p>Here you can find out about <span style = "font-weight: 700">My App</span></p>
+                        <p>As well as our sponsorship packages, car, gallery and contact.</p>
+                        <p>Please do explore.
+                        </br>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <span style = "font-weight: 500; color: #6d6d6d">~ Aaron</span></p>
+                    </div>
+                    <!--<div id="typed-strings3">
+                        <p>*Which I also programmed from scratch :P</p>
+                        <p> </p>
+                    </div>-->
+                </div>
+                <img src = "images/f1InSchoolsLogo.webp" class = "aboutPhoto" id = "f1InSchoolsAboutPhoto">
+                <div id = "teamAboutPhotoWrapper" class = "aboutPhoto">
+                    <img src = "images/EmPhotos/01.jpg">
+                    <img src = "images/EmPhotos/01.jpg">
+                    <img src = "images/EmPhotos/01.jpg">
+                    <img src = "images/EmPhotos/01.jpg">
+                    <img src = "images/EmPhotos/01.jpg">
+                    <img src = "images/EmPhotos/01.jpg">
+                    <img src = "images/EmPhotos/01.jpg">
+                    <img src = "images/EmPhotos/01.jpg">
+                </div>
+                <div class = "aboutPhoto" id = "appAboutPhotoWrapper">
+                    <img src = "images/AppImages/appScreenshot1.webp" id = "appScreenshot1">
+                    <img src = "images/AppImages/appScreenshot3.webp" id = "appScreenshot2">
+                    <img src = "images/AppImages/appScreenshot2.webp" id = "appScreenshot3">
+                </div>
+                
+            </div>
+    
+        </section>
+        <section id = "statistics">
+            <div class = "statisticsWrapper parallax">
+                <div class ="fadeUp">
+                    <h3>Over</h3>
+                    <h1>20 Million</h1>
+                    <h3>Students</h3>
+                </div>
+                <div class ="fadeUp">
+                    <h3>From</h3>
+                    <h1>17,000+</h1>
+                    <h3>Schools</h3>
+                </div>
+                <div class ="fadeUp">
+                    <h3>From</h3>
+                    <h1>40+</h1>
+                    <h3>Countries</h3>
+                </div>
+            </div>
+
+        </section>
+        <section id = "info">
+            <div class = "infoWrapper" id = "infoWrapperID">
+                <div class = "infoLeftWrapper fadeUp">
+                    <h1>What is the F1 in Schools challenge..?</h1>
+                    <p>F1 in Schools is the world's largest STEM competition in which <span class = "bold">20 million</span> students from <span class = "bold">44 countries</span> compete in teams of 3-6 as they are tasked with designing and manufacturing a scaled <span class = "bold">model F1 car</span> as well as creating and resourcing many other entities including portfolios, pit display, sponsorship and team identity. <span style = "color: #db0a5b; cursor: pointer;" onClick = "readMoreInfo();">Read more...</span></p>
+                </div>
+                <div class = "infoRightWrapper">
+                    <div class = "imageWrapper">
+                        <img src = "images/Icons/NineCoffee.webp" id = "coffee" class = "fadeUp" style = "transition-delay: 0.3s;">
+                        <img src = "images/Icons/pencil.webp" id = "pen" class = "fadeUp" style = "transition-delay: 0.9s;">
+                        <img src = "images/Icons/NineNotebook.webp" id = "notebook" class = "fadeUp" style = "transition-delay: 0.6s;">
+                    </div>
+                </div>
+            </div>
+            <div id = "readMoreSection">
+                <h1 id = "readMoreExit" onClick = "readMoreInfoExit()">X</h1>
+                <div class = "readMoreWrapper">
+                    <div class = "readMoreInner">
+                        <h1>Read more...</h1>
+                        <div class = "readMoreTextWrapper">
+                            <div class = "faqs">
+                                <h2>FAQs</h2>
+                                <h3>How can I compete?</h3>
+                                <p>Assemble a team of 3-6 people, allocate job roles, read through <a href= "http://www.f1inschools.co.uk/i-am-a-student/" style = "font-weight: 700;" target="_blank">this</a>, then register <a href= "http://www.f1inschools.co.uk/how-to-register-your-team/" style = "font-weight: 700;" target="_blank">here</a></p>
+                                <h3>How old do I have to be?</h3>
+                                <p>All members must be between the ages of 9 and 19</p>
+                                <h3>Why should I compete?</h3>
+                                <p>The F1 in Schools challenge provides life changing opportunities, as well as providing you the perfect platform on which to express your creativity and intellect all the while helping you to learn useful life skills regardless of future occupation</p>
+                                <h3>What skills do I need?</h3>
+                                <p><span class = "bold">None.</span> You don't need any specific skills to begin with as you will learn them in due course, however the main roles of an F1iS team are: Team Manager, Resources Manager, Manufacturing Engineer, Design Engineer and Graphic Designer, so some development in the appropriate skills for each role would be useful</p>
+                                <!--<h3>What do I need to do?</h3>
+                                <p>There are many tasks which each team must accomplish in preparation for the competition, the list of which is on the left</p>-->
+                            </div>
+                            <div class = "tasksWrapper">
+                                <h2>Main Tasks</h2>
+                                <p>The following range of tasks are designed to utilise each individual's skills of technology, social engineering and creativity.</p>
+                                <ul>
+                                    <li>Design and manufacture a:
+                                        <ul>
+                                            <li>Model F1 car</li>
+                                            <li>Pit Display</li>
+                                        </ul>
+                                    </li>
+                                    <li>Create two portfolios</li>
+                                    <li>Successfully operate as a team</li>
+                                    <li>Create a team identity</li>
+                                    <li>Fundraise</li>
+                                    <li>Raise sponsorship</li>
+                                    <li>Market</li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id = "team">
+            <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
+                <div class="gallery-cell">
+                  <img src = "images/TeamMembers/Aaron.webp" id = "aaronImage">
+                  <div class = "darkOverlay teamImageDarkOverlay"></div>
+                  <h1 class = "fadeUp">Aaron Morris</h1>
+                  <h2 class = "fadeUp">Creative Designer</h2>
+                  <h3 class = "fadeUp">NE</h3>
+                </div>
+                <div class="gallery-cell">
+                  <img src = "images/TeamMembers/Sam.webp">
+                  <div class = "darkOverlay teamImageDarkOverlay"></div>
+                  <h1 class = "fadeUp">Sam Chapman</h1>
+                  <h2 class = "fadeUp">Design Engineer</h2>
+                  <h3 class = "fadeUp">NE</h3>
+                </div>
+                <div class="gallery-cell">
+                  <img src = "images/TeamMembers/Michael.webp">
+                  <div class = "darkOverlay teamImageDarkOverlay"></div>
+                  <h1 class = "fadeUp">Michael Farrel</h1>
+                  <h2 class = "fadeUp">Marketing Manager</h2>
+                  <h3 class = "fadeUp">NE</h3>
+                </div>
+                <div class="gallery-cell">
+                  <img src = "images/TeamMembers/NoPhotoTeamMember.webp">
+                  <div class = "darkOverlay teamImageDarkOverlay"></div>
+                  <h1 class = "fadeUp">Rebekah Robinson</h1>
+                  <h2 class = "fadeUp">Team Manager</h2>
+                  <h3 class = "fadeUp">NI</h3>
+                </div>
+                <div class="gallery-cell">
+                  <img src = "images/TeamMembers/NoPhotoTeamMember.webp">
+                  <div class = "darkOverlay teamImageDarkOverlay"></div>
+                  <h1 class = "fadeUp">Jade McGrath</h1>
+                  <h2 class = "fadeUp">Graphics Designer</h2>
+                  <h3 class = "fadeUp">NI</h3>
+                </div>
+                <div class="gallery-cell">
+                  <img src = "images/TeamMembers/NoPhotoTeamMember.webp">
+                  <div class = "darkOverlay teamImageDarkOverlay"></div>
+                  <h1 class = "fadeUp">Antoni Furman</h1>
+                  <h2 class = "fadeUp">Design Engineer</h2>
+                  <h3 class = "fadeUp">NI</h3>
+                </div>
+                <div class="gallery-cell">
+                  <img src = "images/TeamMembers/Morgan.webp">
+                  <div class = "darkOverlay teamImageDarkOverlay"></div>
+                  <h1 class = "fadeUp">Morgan Lisk</h1>
+                  <h2 class = "fadeUp">Editor</h2>
+                  <h3 class = "fadeUp">NE</h3>
+                </div>
+                <div class="gallery-cell">
+                  <img src = "images/TeamMembers/Lucy.webp">
+                  <div class = "darkOverlay teamImageDarkOverlay"></div>
+                  <h1 class = "fadeUp">Lucy Brooks</h1>
+                  <h2 class = "fadeUp">Team Manager</h2>
+                  <h3 class = "fadeUp">NE</h3>
+                </div>
+            </div>
+        </section>
+        
+        <section id = "teamGB">
+            <!--<h1>Proud Members of</h1>-->
+            <div class = "teamGBWrapper parallax">
+                <a class = "fa fa-twitter" href = "https://twitter.com/TeamGB"></a>
+                <div id = "teamGBImgWrapper">
+                    <a href = "https://www.teamgb.com/"><img src = "images/TeamGBwhite.webp"></a>
+                </div>
+                <a class = "fa fa-facebook" href = "https://www.facebook.com/TeamGB/"></a>
+            </div>
+        </section>
+        
+        <section id = "app">
+            <div class = "appWrapper">
+                <h1 style = "text-align:center;" class ="fadeUp">The App</h1>
+
+                <div class = "leftAppSection">
+                    <div class = "appSectionLeft appSection" id = "appSection1">
+                        <h2 class = "unimportant fadeRight">01</h2>
+                        <div class = "rectangle unimportant fadeRight"></div>
+                        <div class = "bodyWrapper fadeRight">
+                            <img src = "images/AppIcons/01.webp">
+                            <h3 class = "unimportant tabletImportant">Try avoid crashing for as long as possible</h3>
+                        </div>
+                    </div>
+                    <div class = "appSectionLeft appSection" id = "appSection2">
+                        <h2 class = "unimportant fadeRight">02</h2>
+                        <div class = "rectangle unimportant fadeRight"></div>
+                        <div class = "bodyWrapper fadeRight">
+                            <img src = "images/AppIcons/02.webp">
+                            <h3 class = "unimportant tabletImportant">Collect a range of powerups to go further</h3>
+                        </div>
+                    </div>
+                    <div class = "appSectionLeft appSection" id = "appSection3">
+                        <h2 class = "unimportant fadeRight">03</h2>
+                        <div class = "rectangle unimportant fadeRight"></div>
+                        <div class = "bodyWrapper fadeRight">
+                            <img src = "images/AppIcons/03.webp">
+                            <h3 class = "unimportant tabletImportant">Collect cubes to buy upgrades in the store</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "middleAppSection">
+                    <div class = "phoneWrapper">
+                        <video src = "videos/AppVideos/01.webm" class = "appVideo" id = "appVideo1" loop = "loop" muted="" preload="none"></video>
+                        <video src = "videos/AppVideos/02.webm" class = "appVideo" id = "appVideo2" loop = "loop" muted="" preload="none"></video>
+                        <video src = "videos/AppVideos/03.webm" class = "appVideo" id = "appVideo3" loop = "loop" muted="" preload="none"></video>
+                        <video src = "videos/AppVideos/04.webm" class = "appVideo" id = "appVideo4" loop = "loop" muted="" preload="none"></video>
+                        <video src = "videos/AppVideos/05.webm" class = "appVideo" id = "appVideo5" loop = "loop" muted="" preload="none"></video>
+                        <video src = "videos/AppVideos/06.webm" class = "appVideo" id = "appVideo6" loop = "loop" muted="" preload="none"></video>
+                        <video src = "videos/AppVideos/main.webm" class = "appVideo" id = "default" loop = "loop" muted="" autoplay = "autoplay"></video>
+                        <img src = "images/AppIcons/phone.webp">
+
+                    </div>
+                </div>
+
+                <div class = "rightAppSection">
+                    <div class = "appSectionRight appSection" id = "appSection4">
+                        <h2 class = "unimportant fadeLeft">04</h2>
+                        <div class = "rectangle unimportant fadeLeft"></div>
+                        <div class = "bodyWrapper fadeLeft">
+                            <img src = "images/AppIcons/04.webp">
+                            <h3 class = "unimportant tabletImportant">Customise your car with your collected cubes</h3>
+                        </div>
+                    </div>
+                    <div class = "appSectionRight appSection" id = "appSection5">
+                        <h2 class = "unimportant fadeLeft">05</h2>
+                        <div class = "rectangle unimportant fadeLeft"></div>
+                        <div class = "bodyWrapper fadeLeft">
+                            <img src = "images/AppIcons/05.webp">
+                            <h3 class = "unimportant tabletImportant">Compete on the global leaderboard</h3>
+                        </div>
+                    </div>
+                    <div class = "appSectionRight appSection" id = "appSection6">
+                        <h2 class = "unimportant fadeLeft">06</h2>
+                        <div class = "rectangle unimportant fadeLeft"></div>
+                        <div class = "bodyWrapper fadeLeft">
+                            <img src = "images/AppIcons/06.webp">
+                            <h3 class = "unimportant tabletImportant">Relax... And have fun</h3>
+                        </div>
+                    </div> 
+                </div>
+
+                <div class = "button fadeUp"><a href = "https://play.google.com/store/apps/details?id=uk.co.kingafro.F1&hl=en">Download</a></div>
+            </div>
+        </section>
+
+        <section id = "car">
+            <div class = "videoWrapper">
+                <div class = "videoOverlay">
+                    <div class = "videoTopWrapper">
+                        <h1 id = "carVideoTitle" class = "fadeUp">The Car</h1>
+                    </div>
+                    <div class = "videoBottomWrapper">
+                        <div class = "button buttonWhite fadeUp" style = "transition-delay: 0.5s;"onClick="slide();"><a>Discover</a></div>
+                    </div>
+                </div>
+                <div class = "videoBackgroundWrapper">
+                    <video src = "videos/carExplodedAnimation.webm" id = "carSectionVideo" loop = "loop" autoplay = "autoplay" muted = ""></video>
+                    <div class = "darkOverlay xyz" id = "xyz"></div>
+                </div>
+            </div>
+            
+
+            <div id = "bodySection" class = "carSection" >
+                <div class = "carSectionInner">
+                    <div class = "leftInner">
+                        <img src = "images/Car/carBody.webp">
+                    </div>
+                    <div class = "rightInner">
+                        <h1>Chassis</h1>
+                        <p>The chassis of our body is quite flat, with a small frontal surface area, and therefore a lower drag coefficient. The front wing style structure before the front wheels, acts as a front wing would. The body sweeps around the rear wheels in a teardrop shape, with an inverted diffuser to generate lift.</p>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div id = "frontSection" class = "carSection" >
+                <div class = "carSectionInner">
+                    <div class = "leftInner">
+                        <img src = "images/Car/frontWing.webp">
+                    </div>
+                    <div class = "rightInner">
+                        <h1>Front</h1>
+                        <p>The nose cone is designed to push air over as well as away from the main body of the car, which is useful in reducing surface friction. After a lot of testing we found that a swept and dihedral wing was most efficient in producing the least drag and ensuring stability.</p>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div id = "rearSection" class = "carSection" >
+                <div class = "carSectionInner">
+                    <div class = "leftInner">
+                        <img src = "images/Car/rearWing.webp">
+                    </div>
+                    <div class = "rightInner">
+                        <h1>Rear</h1>
+                        <p>Sitting flush into the car body, the rear wing is the same shape as the front wing, being swept and dihedral. We have done this as the wing doesn’t affect the flow over the rest of the car body, so it only needs to have the lowest drag coefficient possible. The endplates ensure that lift produced is maximal.</p>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class = "carSectionSelector" id = "carSectionSelector">
+                <div class = "carSectionSelectorInner">
+                    <div class = "carSelectionButtonWrapper"><div class = "carSelectionButton" id = "carSelectionHome" onClick="carSectionHome();"></div></div>
+                    <div class = "carSelectionButtonWrapper"><div class = "carSelectionButton" id = "carSelectionBody" onClick="carSectionBody();"></div></div>
+                    <div class = "carSelectionButtonWrapper"><div class = "carSelectionButton" id = "carSelectionFront" onClick="carSectionFront();"></div></div>
+                    <div class = "carSelectionButtonWrapper"><div class = "carSelectionButton" id = "carSelectionRear" onClick="carSectionRear();"></div></div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id = "sponsorship">
+            <div id = "sponsorshipWrapper">
+                <h1 class = "fadeUp">Sponsorship Packages</h1>
+                <div class = "sponsorshipPackage fadeUp">
+                    <h1>Bronze</h1>
+                    <h2>£100+</h2>
+                    <ul>
+                        <li><span class = "bold">Logo</span> on pit display</li>
+                        <li><span class = "bold">Logo</span> on front of portfolios</li>
+                        <li><span class = "bold">Logo</span> on website</li>
+                        <li>Team <span class = "bold">newsletter</span> and <span class = "bold">photos</span></li>
+                    </ul>
+                    <div class = "button contactButton"><a href = "#contact">Contact Us</a></div>
+                </div>
+                <div class = "sponsorshipPackage fadeUp">
+                    <h1>Silver</h1>
+                    <h2>£1000+</h2>
+                    <ul>
+                        <li><span class = "bold">Logo</span> on pit display</li>
+                        <li><span class = "bold">Logo</span> on front of portfolios</li>
+                        <li><span class = "bold">Logo</span> on website</li>
+                        <li>Team <span class = "bold">newsletter</span> and <span class = "bold">photos</span></li>
+                        <li>Promotional <span class = "bold">social media</span> posts</li>
+                        <li>Promotion on <span class = "bold">app</span></li>
+                    </ul>
+                    <div class = "button contactButton"><a href = "#contact">Contact Us</a></div>
+                </div>
+                <div class = "sponsorshipPackage fadeUp">
+                    <h1 >Gold</h1>
+                    <h2>£5000+</h2>
+                    <ul>
+                        <li><span class = "bold">Logo</span> on pit display</li>
+                        <li><span class = "bold">Logo</span> on front of portfolios</li>
+                        <li><span class = "bold">Logo</span> on website</li>
+                        <li>Team <span class = "bold">newsletter</span> and <span class = "bold">photos</span></li>
+                        <li>Promotional <span class = "bold">social media</span> posts</li>
+                        <li>Promotion on <span class = "bold">app</span></li>
+                        <li><span class = "bold">Logo</span> throughout portfolios</li>
+                        <li>Offered <span class = "bold">presentation</span> to company</li>
+                        <li>Prime <span class = "bold">uniform</span> position</li>
+                    </ul>
+                    <div class = "button contactButton"><a href = "#contact">Contact Us</a></div>
+                </div>
+                <div class = "sponsorshipPackage fadeUp" id = "platinumSponsorshipPackage">
+                    <h1>Platinum</h1>
+                    <h2>£10000+</h2>
+                    <ul>
+                        <li><span class = "bold">Logo</span> on pit display</li>
+                        <li><span class = "bold">Logo</span> on front of portfolios</li>
+                        <li><span class = "bold">Logo</span> on website</li>
+                        <li>Team <span class = "bold">newsletter</span> and <span class = "bold">photos</span></li>
+                        <li>Promotional <span class = "bold">social media</span> posts</li>
+                        <li>Promotion on <span class = "bold">app</span></li>
+                        <li><span class = "bold">Logo</span> throughout portfolios</li>
+                        <li>Offered <span class = "bold">presentation</span> to company</li>
+                        <li>Prime <span class = "bold">uniform</span> position</li>
+                        <li>Company <span class = "bold">merchandise</span> on pit display</li>
+                        <li><span class = "bold">Logo</span> on car</li>
+                    </ul>
+                    <div class = "button contactButton" style = "transition: all 0.5s;"><a href = "#contact">Contact Us</a></div>
+                    
+                </div>
+            </div>
+            <!--<img src = "images/Interview.webp" id = "sponsorshipBackgroundImage">-->
+            <!--<div id = "sponsorshipOverlayWrapper">
+                
+            </div>-->
+        </section>
+        
+        <section id = "currentSponsors">
+            <!--<h1>Current Sponsors</h1>-->
+            <div class ="sponsor oneThirdSponsor">
+                <img src = "images/Sponsors/nissanWhite.webp" class = "whiteSponsor fadeUp">
+                <img src = "images/Sponsors/nissanColour.webp" class = "colourSponsor fadeUp">
+            </div>
+            <div class ="sponsor oneThirdSponsor">
+                <img src = "images/Sponsors/reeceWhite.webp" class = "whiteSponsor fadeUp" style = "width: 55%;">
+                <img src = "images/Sponsors/reeceColour.webp" class = "colourSponsor fadeUp" style = "width: 55%;">
+            </div>
+            <div class ="sponsor oneThirdSponsor">
+                <img src = "images/Sponsors/GetItMadeWhite.webp" class = "whiteSponsor fadeUp">
+                <img src = "images/Sponsors/GetItMadeColour.webp" class = "colourSponsor fadeUp">
+            </div>
+            <div class ="sponsor">
+                <img src = "images/Sponsors/sevconWhite.webp" class = "whiteSponsor fadeUp">
+                <img src = "images/Sponsors/sevconColour.webp" class = "colourSponsor fadeUp">
+            </div>
+            <div class ="sponsor">
+                <img src = "images/Sponsors/DeanTaxisWhite.webp" class = "whiteSponsor fadeUp">
+                <img src = "images/Sponsors/DeanTaxisColour.webp" class = "colourSponsor fadeUp">
+            </div>
+            <div class ="sponsor">
+                <img src = "images/Sponsors/ImprintWhite.webp" class = "whiteSponsor fadeUp">
+                <img src = "images/Sponsors/ImprintColour.webp" class = "colourSponsor fadeUp">
+            </div>
+            <div class ="sponsor">
+                <img src = "images/Sponsors/BangOnWhite.webp" class = "whiteSponsor fadeUp" style = "height: 45%; width: auto;">
+                <img src = "images/Sponsors/BangOnColour.webp" class = "colourSponsor fadeUp" style = "height: 45%; width: auto;">
+            </div>
+            <div class ="sponsor">
+                <img src = "images/Sponsors/ChromazoneWhite.webp" class = "whiteSponsor fadeUp" style = "height: 45%; width: auto;">
+                <img src = "images/Sponsors/ChromazoneColour.webp" class = "colourSponsor fadeUp" style = "height: 45%; width: auto;">
+            </div>
+            <div class ="sponsor">
+                <img src = "images/Sponsors/NavarinoWhite.webp" class = "whiteSponsor fadeUp" style = "height: 45%; width: auto;">
+                <img src = "images/Sponsors/NavarinoColour.webp" class = "colourSponsor fadeUp" style = "height: 45%; width: auto;">
+            </div>
+            <div class ="sponsor">
+                <img src = "images/Sponsors/HomebaseWhite.webp" class = "whiteSponsor fadeUp" >
+                <img src = "images/Sponsors/HomebaseColour.webp" class = "colourSponsor fadeUp">
+            </div>
+            <div class ="sponsor">
+                <img src = "images/Sponsors/BootsWhite.webp" class = "whiteSponsor fadeUp" style = "height: 45%; width: auto;">
+                <img src = "images/Sponsors/BootsColour.webp" class = "colourSponsor fadeUp" style = "height: 45%; width: auto;">
+            </div>
+        </section>
+
+
+        <section id = "gallery">
+            <div section id = "galleryWrapper">
+                
+                <div class = "galleryImageWrapper fadeUp">
+                    <a data-fancybox href="images/Gallery/Gallery1.webp" class = "galleryImage" style = "padding: 5px;"><img src="images/Gallery/Gallery1Thumbnail.webp" style = "width: 100%;" class = "galleryImg"></a>
+                    <div class = "galleryCross"></div>
+                </div>
+                <div class = "galleryImageWrapper fadeUp">
+                    <a data-fancybox href="images/Gallery/Gallery2.webp" class = "galleryImage" style = "padding: 5px;"><img src="images/Gallery/Gallery2Thumbnail.webp" style = "width: 100%;" class = "galleryImg"></a>
+                    <div class = "galleryCross"></div>
+                </div>
+                <div class = "galleryImageWrapper fadeUp">
+                    <a data-fancybox href="images/Gallery/Gallery3.webp" class = "galleryImage" style = "padding: 5px;"><img src="images/Gallery/Gallery3Thumbnail.webp" style = "width: 100%;" class = "galleryImg"></a>
+                    <div class = "galleryCross"></div>
+                </div>
+                <div class = "galleryImageWrapper fadeUp">
+                    <a data-fancybox href="images/Gallery/Gallery4.webp" class = "galleryImage" style = "padding: 5px;"><img src="images/Gallery/Gallery4Thumbnail.webp" style = "width: 100%;" class = "galleryImg"></a>
+                    <div class = "galleryCross"></div>
+                </div>
+                <div class = "galleryImageWrapper fadeUp">
+                    <a data-fancybox href="images/Gallery/Gallery5.webp" class = "galleryImage" style = "padding: 5px;"><img src="images/Gallery/Gallery5Thumbnail.webp" style = "width: 100%;" class = "galleryImg"></a>
+                    <div class = "galleryCross"></div>
+                </div>
+                <div class = "galleryImageWrapper fadeUp">
+                    <a data-fancybox href="images/Gallery/Gallery6.webp" class = "galleryImage" style = "padding: 5px;"><img src="images/Gallery/Gallery6Thumbnail.webp" style = "width: 100%;" class = "galleryImg"></a>
+                    <div class = "galleryCross"></div>
+                </div>
+                <div class = "galleryImageWrapper fadeUp">
+                    <a data-fancybox href="images/Gallery/Gallery7.webp" class = "galleryImage" style = "padding: 5px;"><img src="images/Gallery/Gallery7Thumbnail.webp" style = "width: 100%;" class = "galleryImg"></a>
+                    <div class = "galleryCross"></div>
+                </div>
+                <div class = "galleryImageWrapper fadeUp">
+                    <a data-fancybox href="images/Gallery/Gallery8.webp" class = "galleryImage" style = "padding: 5px;"><img src="images/Gallery/Gallery8Thumbnail.webp" style = "width: 100%;" class = "galleryImg"></a>
+                    <div class = "galleryCross"></div>
+                </div>
+                <div class = "galleryImageWrapper fadeUp">
+                    <a data-fancybox href="images/Gallery/Gallery9.webp" class = "galleryImage" style = "padding: 5px;"><img src="images/Gallery/Gallery9Thumbnail.webp" style = "width: 100%;" class = "galleryImg"></a>
+                    <div class = "galleryCross"></div>
+                </div>
+                <div class = "galleryImageWrapper fadeUp">
+                    <a data-fancybox href="images/Gallery/Gallery10.webp" class = "galleryImage" style = "padding: 5px;"><img src="images/Gallery/Gallery10Thumbnail.webp" style = "width: 100%;" class = "galleryImg"></a>
+                    <div class = "galleryCross"></div>
+                </div>
+                <div class = "galleryImageWrapper fadeUp">
+                    <a data-fancybox href="images/Gallery/Gallery11.webp" class = "galleryImage" style = "padding: 5px;"><img src="images/Gallery/Gallery11Thumbnail.webp" style = "width: 100%;" class = "galleryImg"></a>
+                    <div class = "galleryCross"></div>
+                </div>
+                <div class = "galleryImageWrapper fadeUp">
+                    <a data-fancybox href="images/Gallery/Gallery12.webp" class = "galleryImage" style = "padding: 5px;"><img src="images/Gallery/Gallery12Thumbnail.webp" style = "width: 100%;" class = "galleryImg"></a>
+                    <div class = "galleryCross"></div>
+                </div>
+                <div class = "galleryImageWrapper fadeUp">
+                    <a data-fancybox href="images/Gallery/Gallery13.webp" class = "galleryImage" style = "padding: 5px;"><img src="images/Gallery/Gallery13Thumbnail.webp" style = "width: 100%;" class = "galleryImg"></a>
+                    <div class = "galleryCross"></div>
+                </div>
+                <div class = "galleryImageWrapper fadeUp">
+                    <a data-fancybox href="images/Gallery/Gallery14.webp" class = "galleryImage" style = "padding: 5px;"><img src="images/Gallery/Gallery14Thumbnail.webp" style = "width: 100%;" class = "galleryImg"></a>
+                    <div class = "galleryCross"></div>
+                </div>
+                <div class = "galleryImageWrapper fadeUp">
+                    <a data-fancybox href="images/Gallery/Gallery15.webp" class = "galleryImage" style = "padding: 5px;"><img src="images/Gallery/Gallery15Thumbnail.webp" style = "width: 100%;" class = "galleryImg"></a>
+                    <div class = "galleryCross"></div>
+                </div>
+                <div class = "galleryImageWrapper fadeUp">
+                    <a data-fancybox href="images/Gallery/Gallery16.webp" class = "galleryImage" style = "padding: 5px;"><img src="images/Gallery/Gallery16Thumbnail.webp" style = "width: 100%;" class = "galleryImg"></a>
+                    <div class = "galleryCross"></div>
+                </div>
+                <div class = "galleryImageWrapper fadeUp">
+                    <a data-fancybox href="images/Gallery/Gallery17.webp" class = "galleryImage" style = "padding: 5px;"><img src="images/Gallery/Gallery17Thumbnail.webp" style = "width: 100%;" class = "galleryImg"></a>
+                    <div class = "galleryCross"></div>
+                </div>
+                <div class = "galleryImageWrapper fadeUp">
+                    <a data-fancybox href="images/Gallery/Gallery18.webp" class = "galleryImage" style = "padding: 5px;"><img src="images/Gallery/Gallery18Thumbnail.webp" style = "width: 100%;" class = "galleryImg"></a>
+                    <div class = "galleryCross"></div>
+                </div>
+                <div class = "galleryImageWrapper fadeUp">
+                    <a data-fancybox href="images/Gallery/Gallery19.webp" class = "galleryImage" style = "padding: 5px;"><img src="images/Gallery/Gallery19Thumbnail.webp" style = "width: 100%;" class = "galleryImg"></a>
+                    <div class = "galleryCross"></div>
+                </div>
+                <div class = "galleryImageWrapper fadeUp">
+                    <a data-fancybox href="images/Gallery/Gallery20.webp" class = "galleryImage" style = "padding: 5px;"><img src="images/Gallery/Gallery20Thumbnail.webp" style = "width: 100%;" class = "galleryImg"></a>
+                    <div class = "galleryCross"></div>
+                </div>
+                
+                
+                
+                
+                <script>$.fancybox.defaults.animationEffect = "zoom-in-out"; //zoom, fade</script>
+            </div>
+        </section>
+        
+        <section id = "video">
+            <div class = "videoWrapper">
+                <div class = "videoOverlay">
+                    <div id = "mainVideoOverlay">
+                        <div class = "videoTopWrapper">
+                            <h1 id = "videoTitle" class = "fadeUp">Silverstone Trip</h1>
+                            <!--<p>Courtesy of F1 in Schools, the Northern English side of the collaboration was gifted free tickets to the Silverstone Grand Prix, and resultantly were shown the Sauber F1 garage as well as meeting Lewis Hamilton...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur nec consequat libero. Aliquam vulputate leo ex. Donec a pharetra magna. Donec posuere nunc at laoreet molestie. Duis feugiat ipsum quis risus luctus, pulvinar maximus enim pretium. Donec imperdiet dui et nunc congue, at ultrices mi placerat.</p>-->
+                        </div>
+                        <div class = "videoBottomWrapper" >
+                            <div class = "playButtonWrapper fadeRight" onClick="playPause();">
+                                <div class = "circle"></div>
+                                <div class = "triangle"></div>
+                            </div>
+                            <h1 id = "videoPlayText">Play Video</h1>
+                        </div>
+                    </div>
+                    
+                    <div id = "pauseButtonWrapper" onClick="playPause();">
+                        <div class = "circle"></div>
+                        <div id = "videoPauseButton"></div>
+                    </div>
+                </div>
+                <div class = "videoBackgroundWrapper">
+                    <video src = "videos/Silverstone.webm" id = "videoSectionVideo" preload="none"></video>
+                    <img src = "images/SilverstoneThumbnail.webp" id = "videoThumbnail">
+                    <div class = "darkOverlay galleryVideoOverlay" id = "videoDarkOverlay"></div>
+                </div>
+            </div>
+        </section>
+        
+        <section id = "contact">
+            <div id = "contactWrapper">
+                <div id = "contactOverlay">
+                    <h1 id = "contactUsText">Contact Us</h1>
+                    <div id = "contactOverlayColour"></div>
+                </div>
+                <div id ="contactContent">
+                    <div id  ="contactContentWrapper">
+                        <div id = "contactContentLeft">
+                            <img src = "images/greyLogoGreyTitle.webp">
+                            <p>Nine is a collaboration of Northern Ireland and Northen England representing the UK at the 2017 F1 in Schools World Finals.</p>
+                        </div>
+                        <div id = "contactContentRight">
+                            <div id = "contactUsWrapper" class = "contactSection">
+                                <h1>Nine</h1>
+                                <h2>info@nixne.co.uk</h2>
+                                <ul>
+                                    <li><a class = "fa fa-twitter" href = "#"></a><a href = "https://twitter.com/nixne_uk" class = "socialMediaText">Twitter</a></li>
+                                    <li><a class = "fa fa-facebook"></a><a href = "https://www.facebook.com/nixne.uk/" class = "socialMediaText">Facebook</a></li>
+                                    <li><a class = "fa fa-instagram"></a><a href = "https://www.instagram.com/nixne.uk/" class = "socialMediaText">Instagram</a></li>
+                                </ul>
+                            </div>
+                            <div id = "contactUnityWrapper" class = "contactSection">
+                                <h1>Unity</h1>
+                                <h2>unityf1@gmail.co.uk</h2>
+                                <ul>
+                                    <li><a class = "fa fa-twitter" href = "#"></a><a href = "https://twitter.com/unityf1?lang=en" class = "socialMediaText">Twitter</a></li>
+                                    <li><a class = "fa fa-facebook"></a><a href = "https://www.facebook.com/unityf1/" class = "socialMediaText">Facebook</a></li>
+                                    <li><a class = "fa fa-instagram"></a><a href = "https://www.instagram.com/unityf1/" class = "socialMediaText">Instagram</a></li>
+                                </ul>
+                            </div>
+                            <div id = "contactDauntlessWrapper" class = "contactSection">
+                                <h1>Dauntless</h1>
+                                <h2>info@dauntless.co.uk</h2>
+                                <ul>
+                                    <li><a class = "fa fa-twitter" href = "#"></a><a href = "https://twitter.com/RacingDauntless" class = "socialMediaText">Twitter</a></li>
+                                    <li><a class = "fa fa-facebook"></a><a href = "https://www.facebook.com/dauntlessCGS/" class = "socialMediaText">Facebook</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id = "copyright">
+<h1>Website Design and Coding by Aaron Morris of Team Nine</br>© 2017 Aaron Morris. All rights reserved.</h1>
+        </section>
+    </body>
+</html>
+
+<script type="text/javascript" src="js/smoothScroll.js"></script>
+<script type="text/javascript" src="js/headerController.js"></script>
+<script type="text/javascript" src="js/about.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+<script type="text/javascript" src="js/car.js"></script>
+<script type="text/javascript" src="js/info.js"></script>
+<script type="text/javascript" src="js/team.js"></script>
+<script type="text/javascript" src="js/fadeIn.js"></script>
+<script type="text/javascript" src="js/galleryVideo.js"></script>
+<script type="text/javascript" src="js/contact.js"></script>
+<script type="text/javascript" src="js/smoothScroll.js"></script>
+<script type="text/javascript" src="js/preloader.js"></script>
+<script type="text/javascript" src="js/parallax.js"></script>

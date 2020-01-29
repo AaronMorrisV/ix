@@ -1,0 +1,15 @@
+Hello
+I'm Aaron
+Image of Aaron
+I coded this website from scratch in <span style = "color: red">HTML5</span>, <span style = "color: blue">CSS3</span> and <span style = "color: orange">Javascript.
+
+Here you can find out about: F1 in Schools
+F1iS logo
+Here you can find out about: My Team
+Team pics
+Here you can find out about: My App (//And then on a separate type section, to the right maybe, "which I also programmed from scratch by myself ;)")
+App screenshot
+As well as our, sponsoship packages, car, gallery and contact.
+
+Please do explore 
+	~ Aaron

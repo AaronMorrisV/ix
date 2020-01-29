@@ -1,0 +1,3 @@
+FULLY MOBILE RESPONSIVE.
+One page style website.
+Coded from scratch (with a plugin or two e.g. text typed "Hello.*" element).
